@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# SISTEM KEAMANAN JARINGAN NIRKABEL
+Jaringan nirkabel atau yang sering disebut dengan wireless network mulai semakin digemari dewasa ini. Hal tersebut karena kemudahan untuk instalasi dan juga terasa sangat nyaman dalam penggunaannya. Namun, karena wireless menggunakan gelombang radio, maka akan lebih mudah untuk diretas (hack) dari pada koneksi yang menggunakan kabel.
 
-You can use the [editor on GitHub](https://github.com/ridwansafarudin/SISTEM-KEAMANAN-JARINGAN-NIRKABEL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Jenis Sistem Kemanan Jaringan Nirkabel
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Wifi protected access
+Wifi Protected Access (WPA) merupakan jenis keamanan untuk melengkapi dari sistem keamanan WEP. WPA mengimplementasikan standart IEEE 802.11.
+Keamanan WPA didesain menggunakan PC yang berfungsi memberikan authetication server yang memberikan kunci pada masing-masing client dari suatu jaringan nirkabel yang menggunakan access point sebagai media sentral komunikasi. WPA menngunakan metode enkripsi algoritma RC4.
 
-### Markdown
+### Wifi Protected Access 2 (WPA2)
+WPA2 adalah protokol keamanan jaringan nirkabel pengganti WPA. WPA2 menggunakan algoritma AES dan CCMP (Counter Cipher Mode with Block Chaining Message Authentication Code Protocol) sebagai pengganti TKIP. Oleh karena itu WPA2 menjadi protokol paling aman dibandingkan WEP dan WPA.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Wifi Protected Access – Pre Share Key (WPA-PSK)
+Wifi Protected Access – Pre Share Key (WPA-PSK) adalah pengamanan jaringan nirkabel teerproteksi melalui password. Pre Shared Key yaitu metode otentifikasi client dengan password hingga 133 karakter melalui teknik enkripsi. WPA menggunakan enkripsi TKIP.
 
-```markdown
-Syntax highlighted code block
+### Wifi Protected Access 2- Pre Share Key (WPA2-PSK)
+Wifi Protected Access 2- Pre Share Key (WPA2-PSK) adalah sistem keamanan jaringan nirkabel / wireless yang terbaru yang lebih baik dari WEP dan WPA-PSK. WPA2-PSK menggunakan 2 jenis decryption yaitu Advanced encryption standard (AES) dan Temporal key Integrity Ptotokol (TKIP). TKIP mempunyai banyak kelemahan, Oleh karena itu lebih baik menggunakan AES. Dengan syarat router dan wifi adapter anda support WPA dan WPA2.
 
-# Header 1
-## Header 2
-### Header 3
+### Mac Filter
+MAC address filtering adalah metode filtering untuk membatasi akses dari MAC address. Semua perangkat jaringan mempunyai alamat mac address.
 
-- Bulleted
-- List
+Cara kerja MAC Filtering yaitu Access point atau Router menseleksi komputer atau perangkat mana sayang yang dapat terhubung ke jaringan. Jadi, tidak semua perangkat dapat terhubung ke jaringan wifi tersebut.
 
-1. Numbered
-2. List
+### Kelemahan Jaringan Nirkabel
+Kelemahan pada konfigurasi, kelemahan pada jenis enkripsi yang digunakan.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ridwansafarudin/SISTEM-KEAMANAN-JARINGAN-NIRKABEL/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Kelemahan Jaringan Nirkabel Berdasarkan OSI
+Kelemahan nirkabel pada lapisan fisik(physical layer), kelemahan pada lapisan MAC(Data Layer).
